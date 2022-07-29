@@ -5,7 +5,7 @@ function TimeAndLocation() {
     <div>
       <div className='flex items-center justify-center my-6'>
         <p className='text-white text-xl font-extralight'>
-          Thursday, 16 December 1993 | Local Time: 4:20 PM
+          Thursday, 6 September 1969 | Local Time: 6:90 PM
         </p>
       </div>
       <div className='flex items-center justify-center my-3'>
