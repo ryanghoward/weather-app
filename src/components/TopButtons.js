@@ -8,7 +8,7 @@ function TopButtons({ setQuery }) {
     },
     {
       id: 2,
-      title: "Los Angeles",
+      title: "New York",
     },
     {
       id: 3,
@@ -20,7 +20,7 @@ function TopButtons({ setQuery }) {
     },
     {
       id: 5,
-      title: "Buenos Aires",
+      title: "Paris",
     },
   ];
 
