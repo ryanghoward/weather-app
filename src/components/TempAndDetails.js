@@ -54,7 +54,7 @@ function TempAndDetails({
       <div className='flex flex-row items-center justify-center space-x-2 text-white text-sm py-3'>
         <UilSun />
         <p className='font-light'>
-          Rise:{" "}
+          Rise:
           <span className='font-medium ml-1'>
             {formatToLocalTime(sunrise, timezone, "hh:mm a")}
           </span>
@@ -62,7 +62,7 @@ function TempAndDetails({
         <p className='font-light'>|</p>
         <UilSunset />
         <p className='font-light'>
-          Set:{" "}
+          Set:
           <span className='font-medium ml-1'>
             {formatToLocalTime(sunset, timezone, "hh:mm a")}
           </span>
@@ -70,13 +70,13 @@ function TempAndDetails({
         <p className='font-light'>|</p>
         <UilArrowUp />
         <p className='font-light'>
-          High:{" "}
+          High:
           <span className='font-medium ml-1'>{`${temp_max.toFixed()}°`}</span>
         </p>
         <p className='font-light'>|</p>
         <UilArrowDown />
         <p className='font-light'>
-          Low:{" "}
+          Low:
           <span className='font-medium ml-1'>{`${temp_min.toFixed()}°`}</span>
         </p>
       </div>

@@ -30,8 +30,8 @@ function App() {
         <div>
           <TimeAndLocation weather={weather} />
           <TempAndDetails weather={weather} />
-          <Forecast title='Hourly Forecast' />
-          <Forecast title='Daily Forecast' />
+          <Forecast title='Hourly Forecast' items={weather.hourly} />
+          <Forecast title='Daily Forecast' items={weather.daily} />
         </div>
       )}
     </div>
