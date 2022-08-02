@@ -36,7 +36,7 @@ function App() {
       <TopButtons setQuery={setQuery} />
       <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
       {weather && (
-        <div>
+        <div className='w-full'>
           <TimeAndLocation weather={weather} />
           <TempAndDetails weather={weather} />
           <Forecast title='Hourly Forecast' items={weather.hourly} />
